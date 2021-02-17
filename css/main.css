@@ -384,6 +384,61 @@ p.titulo {
 .efecto-imagen {
   transform: rotate(10deg);
 }
+
+/**servicios**/
+.servicios {
+  background: #f2f2f2;
+  padding: 50px 0;
+}
+ .servicio-articulo {
+  margin-bottom: 20px;
+}
+ .servicio-icono{
+  float: left;
+  background: #16de9d;
+  padding: 16px;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #16de9d;
+}
+ .servicio-icono i {
+  color: #fff;
+  font-size: 25px;
+}
+ .servicio-articulo:hover .servicio-icono {
+  background: #fff;
+}
+ .servicio-articulo:hover .servicio-icono i {
+  color: #16de9d;
+}
+
+ .servicio-titulo {
+  margin-left: 80px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+ .servicio-titulo a {
+  color: #000;
+}
+ .servicio-descripcion {
+  margin-left: 80px;
+  line-height: 24px;
+}
+
+/***Proyectos**/
+.proyectos {
+  background: #ffff;
+  padding: 50px 0;
+}
+
+
+
+
+
+/**=====================================================================================================================**/
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
