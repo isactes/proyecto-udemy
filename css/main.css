@@ -429,12 +429,56 @@ p.titulo {
 .proyectos {
   background: #ffff;
   padding: 50px 0;
+} 
+.proyectos .portafolio-icono {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 260px; 
+  width: 100%;
+  display: table;
+  overflow: hidden;
+  margin-bottom: 30px;
 }
-
-
-
-
-
+.proyectos .portafolio-icono .detalles {
+  height: 260px;
+  background: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  opacity: 0;
+  transition: 0.3s;
+  text-align: center;
+}
+.proyectos .portafolio-icono .detalles h4 {
+  font-size: 16px;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  -webkit-transform: translate3d(0, -15px, 0);
+  color: #000;
+}
+.proyectos .portafolio-icono .detalles span {
+    display: block;
+    color: #000;
+    font-size: 15px;
+    transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+    -webkit-transform: translate3d(0, 15px, 0);
+    transform: translate3d(0, 15px, 0);
+}
+.proyectos .portafolio-icono:hover .detalles {
+  opacity: 0.8;
+}
+.proyectos .portafolio-icono:hover .detalles h4 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.proyectos .portafolio-icono:hover .detalles span {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+} 
 /**=====================================================================================================================**/
 
 
